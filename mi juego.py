@@ -8,7 +8,7 @@ screen = pygame.display.set_mode((800, 600)) # tamaño (ancho, alto)
 p = Pelota()
 
 clock = pygame.time.Clock() # <--- crear un reloj
- game_over = False
+game_over = False
 while not  game_over:
         for event in pygame.event.get():
         if event.type == pygame.QUIT:
